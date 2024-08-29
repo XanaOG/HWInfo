@@ -14,4 +14,6 @@ func main() {
 	Disk.GetStats()
 	Host.GetStats()
 	Network.GetStats()
+	fmt.Println("Press Enter to exit...")
+	fmt.Scanln()
 }
